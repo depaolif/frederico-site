@@ -1,0 +1,24 @@
+
+#about {
+  border: 0.25em double black;
+  padding: 25px 15px 25px 15px;
+  width: 60%;
+  margin: auto;
+  margin-top: 23vh;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.about-row {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.links-row {
+  border-top: 0.25em double black;
+  padding-top: 1em;
+}
+
+.s-items {
+  text-align: left;
+}

@@ -14,10 +14,6 @@
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
-}
-
 .App-intro {
   font-size: large;
 }
@@ -25,4 +21,14 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.p-link, .p-link:link, .p-link:visited, .p-link:active {
+  text-decoration: none;
+  color: indigo;
+}
+
+.p-link:hover {
+  border-bottom: 1px dashed indigo;
+  color: indigo;
 }

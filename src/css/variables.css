@@ -1,0 +1,9 @@
+.p-link, .p-link:link, .p-link:visited, .p-link:active {
+  text-decoration: none;
+  color: indigo;
+}
+
+.p-link:hover {
+  border-bottom: 1px dashed indigo;
+  color: indigo;
+}

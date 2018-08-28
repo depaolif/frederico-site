@@ -1,0 +1,47 @@
+
+.full-project {
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  font-size: 1.2em;
+}
+
+.full-project > h2 {
+  color: indigo;
+  text-align: center;
+}
+
+.github-logo-wrapper {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.icon {
+  width:20px;
+  height:20px;
+  margin: 0px 0.5em 0px 0.5em;
+}
+
+.videos-header {
+  text-align: center;
+}
+
+.video-box {
+  margin: auto;
+  margin-top: 3em;
+  width: 100%;
+  border: 1px solid black;
+  padding: 1em;
+}
+
+.video {
+  margin: auto;
+  width: 100%;
+  padding: 1em;
+}
+
+.video-caption {
+  font-style: italic;
+  font-size: 0.8em;
+  text-align: center;
+}
