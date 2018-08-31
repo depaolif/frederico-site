@@ -2,7 +2,7 @@
   "name": "frederico-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://depaolif.github.io/frederico-site",
+  "homepage": "https://depaolif.github.io",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "react": "^15.5.4",
