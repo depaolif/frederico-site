@@ -20,9 +20,9 @@ class App extends Component {
             </Col>
             <Col md={9}>
               <Route exact path={`${process.env.PUBLIC_URL}/`} component={ProjectsList} />
-              <Route path={`${process.env.PUBLIC_URL}/doodledocs`} component={() => (<FullProject project={ProjectData[0]} />)}/>
-              <Route path={`${process.env.PUBLIC_URL}/koko`} component={() => (<FullProject project={ProjectData[1]} />)}/>
-              <Route path={`${process.env.PUBLIC_URL}/checkupon`} component={() => (<FullProject project={ProjectData[2]} />)}/>
+              <Route path={`${process.env.PUBLIC_URL}/projects/doodledocs`} component={() => (<FullProject project={ProjectData[0]} />)}/>
+              <Route path={`${process.env.PUBLIC_URL}/projects/koko`} component={() => (<FullProject project={ProjectData[1]} />)}/>
+              <Route path={`${process.env.PUBLIC_URL}/projects/checkupon`} component={() => (<FullProject project={ProjectData[2]} />)}/>
               <Route path={`${process.env.PUBLIC_URL}/about`} component={About} />
             </Col>
           </Row>

@@ -8,7 +8,7 @@ class FullProject extends React.Component {
     const videos = getVideos(title)
     const videoElements = videos.map((video, i) => {
       return (
-        <div className="video-box">
+        <div className="video-box" key={i}>
           <video className="video" src={`${title.toLowerCase()}/${video["name"]}`} controls="controls" height="400" width="600">
             Sorry, your browser does not support .mov videos
           </video>

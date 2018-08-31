@@ -1,6 +1,5 @@
 import React from 'react'
 import '../css/project.css'
-import { Link } from 'react-router-dom'
 
 class Project extends React.Component {
   render() {
