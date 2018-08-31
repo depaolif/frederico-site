@@ -11,10 +11,14 @@ class FullProject extends React.Component {
       const url = VimeoMap[video.name];
       return (
         <div className="video-box" key={i}>
-          {/* <video className="video" src={`${title.toLowerCase()}/${video["name"]}`} controls="controls" height="400" width="600">
-            Sorry, your browser does not support .mov videos
-          </video> */}
-          <iframe className="video" src={url} width="600" height="400" frameBorder="0" allowFullScreen></iframe>
+          <iframe
+            className="video"
+            src={url}
+            width="600"
+            height="400"
+            frameBorder="0"
+            allowFullScreen
+          />
           <p className="video-caption">{video["caption"]}</p>
         </div>
       )
