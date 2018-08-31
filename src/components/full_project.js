@@ -1,17 +1,20 @@
 import React from 'react'
 import { getVideos } from '../helpers/get_videos'
 import '../css/full_project.css'
+import VimeoMap from '../data/vimeoMap';
 
 class FullProject extends React.Component {
   render() {
     const { title, description, githubLink, websiteLink } = this.props.project
     const videos = getVideos(title)
     const videoElements = videos.map((video, i) => {
+      const url = VimeoMap[video.name];
       return (
         <div className="video-box" key={i}>
-          <video className="video" src={`${title.toLowerCase()}/${video["name"]}`} controls="controls" height="400" width="600">
+          {/* <video className="video" src={`${title.toLowerCase()}/${video["name"]}`} controls="controls" height="400" width="600">
             Sorry, your browser does not support .mov videos
-          </video>
+          </video> */}
+          <iframe className="video" src={url} width="600" height="400" frameBorder="0" allowFullScreen></iframe>
           <p className="video-caption">{video["caption"]}</p>
         </div>
       )
