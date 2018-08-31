@@ -7,3 +7,4 @@
   1. "frederico-de-paoli.com" is already pointing to "depaolif.github.io/frederico-site", so we do not want to add in a page path into "homepage", otherwise it will go to "frederico-de-paoli.com/frederico-site"
 3. CNAME should now be building into root path of repo's 'gh-pages' branch because it's included in the `public/` folder of the 'master' branch.
 4. "process.env.PUBLIC_URL" must be added to the `path` for every Route as the constructed root URL is different from the local root one
+5. Hosting video files on vimeo. These URLs may need to be changed eventually. To get the URL of the iframe, go to the embed link for that video on vimeo, and copy the "src" URL.
