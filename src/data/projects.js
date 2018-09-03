@@ -24,7 +24,7 @@ const ProjectData = [
     "languages": ["Ruby", "Ruby on Rails", "APIs", "HTML5", "SCSS", "JavaScript", "jQuery"],
     "externalApis": ["Twitter", "Google Natural Language"],
     "githubLink": "https://github.com/depaolif/check-up-on",
-    "websiteLink": "https://depaolif.github.io/checkupon/",
+    "websiteLink": "",
   }
 ]
 

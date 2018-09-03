@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/about.css'
-import { Grid, Row, Col } from 'react-bootstrap';
+import { Grid, Row, Col } from 'react-bootstrap'
 
 class About extends React.Component {
   render() {

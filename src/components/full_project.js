@@ -1,7 +1,7 @@
 import React from 'react'
 import { getVideos } from '../helpers/get_videos'
 import '../css/full_project.css'
-import VimeoMap from '../data/vimeoMap';
+import VimeoMap from '../data/vimeoMap'
 
 class FullProject extends React.Component {
   render() {

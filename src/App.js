@@ -3,9 +3,10 @@ import NavBar from './components/navbar'
 import About from './components/about'
 import ProjectsList from './components/projects_list'
 import FullProject from './components/full_project'
+import Demos from './components/demos'
 import ProjectData from './data/projects'
-import { Grid, Row, Col } from 'react-bootstrap';
-import { HashRouter, Route } from 'react-router-dom';
+import { Grid, Row, Col } from 'react-bootstrap'
+import { HashRouter, Route } from 'react-router-dom'
 import './App.css'
 
 
@@ -24,12 +25,13 @@ class App extends Component {
               <Route path={`${process.env.PUBLIC_URL}/projects/koko`} component={() => (<FullProject project={ProjectData[1]} />)}/>
               <Route path={`${process.env.PUBLIC_URL}/projects/checkupon`} component={() => (<FullProject project={ProjectData[2]} />)}/>
               <Route path={`${process.env.PUBLIC_URL}/about`} component={About} />
+              <Route path={`${process.env.PUBLIC_URL}/demos`} component={Demos} />
             </Col>
           </Row>
         </Grid>
       </HashRouter>
-    );
+    )
   }
 }
 
-export default App;
+export default App

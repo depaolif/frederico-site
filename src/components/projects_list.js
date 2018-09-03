@@ -1,18 +1,19 @@
 import React from 'react'
 import Project from './project'
 import ProjectData from '../data/projects'
-import { Grid, Row, Col } from 'react-bootstrap'
-import '../css/projects_list.css'
+import { Row, Col } from 'react-bootstrap'
+import '../css/grid_list.css'
 
 class ProjectsList extends React.Component {
   render() {
     // calculating what the projects grid will look like
-    const projectsList = ProjectData.map((el, i) => <Project key={i}
-      title={ProjectData[i]["title"]}
-      summary={ProjectData[i]["summary"]}
-      languages={ProjectData[i]["languages"]}
-      externalApis={ProjectData[i]["externalApis"]}
-      githubLink={ProjectData[i]["githubLink"]}
+    const projectsList = ProjectData.map((el, i) => <Project
+      key={i}
+      title={el.title}
+      summary={el.summary}
+      languages={el.languages}
+      externalApis={el.externalApis}
+      githubLink={el.githubLink}
     /> )
 
     const numberRows = Math.ceil(projectsList.length / 2)
@@ -27,9 +28,9 @@ class ProjectsList extends React.Component {
       </Row>
     }
     return (
-      <Grid id="projects-list">
+       <div id="projects-list" className="grid-list">
         {projectsGrid}
-      </Grid>
+      </div>
     )
   }
 }
