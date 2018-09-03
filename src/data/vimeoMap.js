@@ -6,7 +6,10 @@ const VimeoMap = {
   "latest doodles": "https://player.vimeo.com/video/287726340",
   "history undo redo": "https://player.vimeo.com/video/287726332",
   "drawing": "https://player.vimeo.com/video/287726313",
-  "twix": "https://player.vimeo.com/video/288055703",
+  "twix": "https://player.vimeo.com/video/288065317",
+  "maltesers": "https://player.vimeo.com/video/288055691",
+  "lunger-games": "https://player.vimeo.com/video/288055657",
+  "ben-jerry": "https://player.vimeo.com/video/288055645",
 }
 
 export default VimeoMap

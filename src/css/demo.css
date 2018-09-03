@@ -1,0 +1,12 @@
+.demo-box {
+  margin-bottom: 3em;
+}
+
+.demo-video {
+  margin: auto;
+  width: 240px;
+  height: 400px;
+  padding: 1em;
+  border-radius: 20px;
+  background-color: #2b2b2b;
+}
