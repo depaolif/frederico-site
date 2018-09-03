@@ -7,7 +7,7 @@ const VimeoMap = {
   "history undo redo": "https://player.vimeo.com/video/287726332",
   "drawing": "https://player.vimeo.com/video/287726313",
   "twix": "https://player.vimeo.com/video/288065317",
-  "maltesers": "https://player.vimeo.com/video/288055691",
+  "maltesers": "https://player.vimeo.com/video/288067391",
   "lunger-games": "https://player.vimeo.com/video/288055657",
   "ben-jerry": "https://player.vimeo.com/video/288055645",
 }
