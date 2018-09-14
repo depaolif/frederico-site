@@ -6,14 +6,21 @@ import FullProject from './components/full_project'
 import Demos from './components/demos'
 import ProjectData from './data/projects'
 import { Grid, Row, Col } from 'react-bootstrap'
-import { HashRouter, Route } from 'react-router-dom'
+import { Router, Route } from 'react-router-dom'
+import { createBrowserHistory } from 'history';
 import './App.css'
 
+
+const history = createBrowserHistory();
+history.listen(function (location) {
+  window.ga('set', 'page', location.pathname + location.search);
+  window.ga('send', 'pageview');
+});
 
 class App extends Component {
   render() {
     return (
-      <HashRouter>
+      <Router history={history}>
         <Grid>
           <Row>
             <Col md={3}>
@@ -29,7 +36,7 @@ class App extends Component {
             </Col>
           </Row>
         </Grid>
-      </HashRouter>
+      </Router>
     )
   }
 }
