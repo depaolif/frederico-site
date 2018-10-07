@@ -5,7 +5,7 @@ class Project extends React.Component {
   render() {
     const { title, summary, languages } = this.props
     return (
-      <a className="box-link" href={`/#/projects/${title}`}>
+      <a className="box-link" href={`/projects/${title}`}>
         <div className="project-box">
         <h3 className="title">{title}</h3>
         <br></br>
