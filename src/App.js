@@ -6,7 +6,7 @@ import FullProject from './components/full_project'
 import Demos from './components/demos'
 import ProjectData from './data/projects'
 import { Grid, Row, Col } from 'react-bootstrap'
-import { Router, Route } from 'react-router-dom'
+import { HashRouter, Route } from 'react-router-dom'
 import { createBrowserHistory } from 'history';
 import './App.css'
 
@@ -20,7 +20,7 @@ history.listen(function (location) {
 class App extends Component {
   render() {
     return (
-      <Router history={history}>
+      <HashRouter history={history}>
         <Grid>
           <Row>
             <Col md={3}>
@@ -36,7 +36,7 @@ class App extends Component {
             </Col>
           </Row>
         </Grid>
-      </Router>
+      </HashRouter>
     )
   }
 }
